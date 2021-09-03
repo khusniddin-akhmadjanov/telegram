@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url("../fonts/montserrat-v18-latin-regular.woff2") format("woff2"),
+       url("../fonts/montserrat-v18-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: 
+       url("../fonts/montserrat-v18-latin-500.woff2") format("woff2"), 
+       url("../fonts/montserrat-v18-latin-500.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: 
+       url("../fonts/montserrat-v18-latin-700.woff2") format("woff2"), 
+       url("../fonts/montserrat-v18-latin-700.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: 
+       url("../fonts/montserrat-v18-latin-600.woff2") format("woff2"), 
+       url("../fonts/montserrat-v18-latin-600.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: 
+       url("../fonts/montserrat-v18-latin-800.woff2") format("woff2"), 
+       url("../fonts/montserrat-v18-latin-800.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: 
+       url("../fonts/montserrat-v18-latin-900.woff2") format("woff2"), 
+       url("../fonts/montserrat-v18-latin-900.woff") format("woff"); 
+}
+
+.body {
+  background-color: #232f3d;
+}
+
+.top {
+  padding: 3px 0;
+  padding-bottom: 5px;
+  background-color: #5a6674;
+}
+
+.top__icon ~ .top__icon {
+  margin-left: 15px;
+}
+
+.top__icon svg{
+  transform: rotateY(180deg);
+}
+
+.section__left-menu-wrapper {
+
+}
+
+.section__left-menu {
+  padding: 0;
+  margin: 0;
+}
+
+.section__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.section__item {
+  padding: 0;
+  margin: 0;
+}
+
+.section__list-img {
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.section__left-menu-link {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__left-menu-text {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 5px;
+  font-family: "Montserrat";
+}
+
+.section__chats-item-left-img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.section__chats-item-middle-box {
+  display: block;
+}
+
+.section__chats-item {
+  margin-left: -30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.section__chats-item-left-box {
+  display: flex;
+  align-items: center;
+}
+
+.section__chats-name {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.section__chats-massage {
+  color: #64bee7;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.section__chats-time-box {
+  margin-left: 30px;
+}
+
+.section__chats-time {
+  color: #5a6674;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.section__chats-massage-number {
+  border-radius: 50%;
+  background-color: #64bee7;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.section__left-pin-img {
+  transform: rotate(45deg);
+  margin-left: 20px;
+}
+
+.section__left-pin-num {
+  margin-left: 18px;
+  border-radius: 50%;
+  background-color: #64bee7;
+}
+
+.chat-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat__user {
+  display: block;
+}
+
+.chat__user-name {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #ffffff; 
+}
+
+.chat__user-last-seen {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #5a6674;
+}
+
+.chat__icons {
+  cursor: pointer;
+}
+
+.massage__pin-section {
+}
+
+.pins {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pin__lines {
+  display: block;
+}
+
+.pins__line {
+  background-color: #5a6674;
+  width: 3px;
+  height: 5px;
+  margin-bottom: 5px;
+}
+
+
+.pins__line:nth-child(4) {
+  background-color: #64bee7;
+  width: 3px;
+  height: 5px;
+  margin-bottom: 5px;
+}
+
+.pin__title {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #64bee7;
+  padding: 0;
+  margin: 0;
+}
+
+.pins__text {
+  margin-bottom: -5px;
+}
+
+.pin__text {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+
+.pin-img {
+  transform: rotateZ(45deg);
+}
+
+.massage__text-section {
+
+}
+
+.massage {
+  background-color: #5a6674;
+  width: 420px;
+  margin-left: 4%;
+  padding: 15px 10px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.massage__box-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.massage__text {
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.massage__user {
+  color: #64bee7;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.massage__position {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #232f3d;
+}
+
+.massage__box-bottom {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.massage__link {
+  text-decoration-line: none;
+  color: #2474c0;
+}
+
+.massage__time {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.massage__box-bottom-image {
+  border-radius: 50%;
+  position: absolute;
+  left: 330px;
+}
