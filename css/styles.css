@@ -65,6 +65,11 @@
   transform: rotateY(180deg);
 }
 
+.top__icon:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
 .section__left-menu-wrapper {
   padding: 0;
   margin: 0;
@@ -87,6 +92,7 @@
 }
 
 .setion__item:hover {
+  transition: 0.3s ease;
   background-color: #667a92;
 }
 
@@ -449,4 +455,10 @@
   text-decoration-line: none;
   color: #be1010;
   font-size: 14px;
+}
+
+.info__box-report:hover {
+  color: #be1010;
+  transition: 0.3s;
+  opacity: 50%;
 }
