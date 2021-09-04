@@ -66,7 +66,8 @@
 }
 
 .section__left-menu-wrapper {
-
+  padding: 0;
+  margin: 0;
 }
 
 .section__left-menu {
@@ -83,6 +84,10 @@
 .section__item {
   padding: 0;
   margin: 0;
+}
+
+.setion__item:hover {
+  background-color: #667a92;
 }
 
 .section__list-img {
@@ -268,9 +273,9 @@
 }
 
 .massage {
-  background-color: #5a6674;
+  background-color: #e1e9f1;
   width: 420px;
-  margin-left: 4%;
+  margin-left: 10%;
   padding: 15px 10px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -289,7 +294,7 @@
   font-weight: 500;
   font-family: "Montserrat";
   font-size: 12px;
-  color: #ffffff;
+  color: #000000;
   text-align: justify;
 }
 
@@ -328,4 +333,120 @@
   border-radius: 50%;
   position: absolute;
   left: 330px;
+}
+
+.chat__text-input {
+  margin-top: 45px;
+}
+
+.info__box-top {
+  display: flex;
+}
+
+.info__box-top span {
+  cursor: pointer;
+}
+
+.info__box-top svg:hover {
+  opacity: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.info__box-group {
+  display: flex;
+  align-items: center;
+}
+
+.info__box-group-name {
+  margin-left: 10px;
+}
+
+.info__box-top-title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Montserrat";
+  margin-right: 200px;
+}
+
+.info__box-group-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info__box-group-title {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+}
+
+.info__box-group-text {
+  color: #ced2d6;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.info__box-info {
+  display: flex;
+  align-items: center;
+}
+
+.info__box-info-text-box {
+  margin-left: 70px;
+}
+
+.info__box-info-text {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.info__box-info-icons {
+  margin-top: 50px;
+}
+
+.info__box-icon-name {
+  color: #a39d9d;
+  font-size: 12px;
+  margin-left: 50px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.info__box-icon-name:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+.info__box-info-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info__box-info-item {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.info__box-info-item:hover svg{
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.info__box-report {
+  margin-left: 75px;
+  text-decoration-line: none;
+  color: #be1010;
+  font-size: 14px;
 }
