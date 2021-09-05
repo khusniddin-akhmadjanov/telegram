@@ -2,49 +2,54 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: 
-       url("../fonts/montserrat-v18-latin-regular.woff2") format("woff2"),
-       url("../fonts/montserrat-v18-latin-regular.woff") format("woff"); 
+  src:
+    url("../fonts/montserrat-v18-latin-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-regular.woff") format("woff");
 }
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  src: 
-       url("../fonts/montserrat-v18-latin-500.woff2") format("woff2"), 
-       url("../fonts/montserrat-v18-latin-500.woff") format("woff"); 
+  src:
+    url("../fonts/montserrat-v18-latin-500.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-500.woff") format("woff");
 }
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: 
-       url("../fonts/montserrat-v18-latin-700.woff2") format("woff2"), 
-       url("../fonts/montserrat-v18-latin-700.woff") format("woff"); 
+  src:
+    url("../fonts/montserrat-v18-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-700.woff") format("woff");
 }
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  src: 
-       url("../fonts/montserrat-v18-latin-600.woff2") format("woff2"), 
-       url("../fonts/montserrat-v18-latin-600.woff") format("woff"); 
+  src:
+    url("../fonts/montserrat-v18-latin-600.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-600.woff") format("woff");
 }
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
-  src: 
-       url("../fonts/montserrat-v18-latin-800.woff2") format("woff2"), 
-       url("../fonts/montserrat-v18-latin-800.woff") format("woff"); 
+  src:
+    url("../fonts/montserrat-v18-latin-800.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-800.woff") format("woff");
 }
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
-  src: 
-       url("../fonts/montserrat-v18-latin-900.woff2") format("woff2"), 
-       url("../fonts/montserrat-v18-latin-900.woff") format("woff"); 
+  src:
+    url("../fonts/montserrat-v18-latin-900.woff2") format("woff2"),
+    url("../fonts/montserrat-v18-latin-900.woff") format("woff");
 }
 
 .body {
@@ -57,11 +62,11 @@
   background-color: #5a6674;
 }
 
-.top__icon ~ .top__icon {
+.top__icon~.top__icon {
   margin-left: 15px;
 }
 
-.top__icon svg{
+.top__icon svg {
   transform: rotateY(180deg);
 }
 
@@ -100,7 +105,7 @@
   width: 32px;
   height: 32px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .section__left-menu-link {
@@ -206,7 +211,7 @@
   font-size: 14px;
   font-weight: 500;
   font-family: "Montserrat";
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .chat__user-last-seen {
@@ -222,8 +227,7 @@
   cursor: pointer;
 }
 
-.massage__pin-section {
-}
+.massage__pin-section {}
 
 .pins {
   display: flex;
@@ -274,9 +278,7 @@
   transform: rotateZ(45deg);
 }
 
-.massage__text-section {
-
-}
+.massage__text-section {}
 
 .massage {
   background-color: #e1e9f1;
@@ -445,7 +447,7 @@
   display: flex;
 }
 
-.info__box-info-item:hover svg{
+.info__box-info-item:hover svg {
   cursor: pointer;
   opacity: 50%;
 }
@@ -461,4 +463,137 @@
   color: #be1010;
   transition: 0.3s;
   opacity: 50%;
+}
+
+.dropdown__box {
+  width: 330px;
+}
+
+.dropdown__menu-top {
+  background-color: #70d4db;
+  padding-bottom: 20px;
+}
+
+.dropdown__menu-top-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown__avatar-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.dropdown__avatar-saved-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.dropdown__menu-top-info {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.dropdown__user-name {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.dropdown__user-number {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.dropdown__menu-top-info-right-img {
+  margin-right: 30px;
+}
+
+.dropdown__menu-box {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(37, 60, 88);
+}
+
+.dropdown__menu-box-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.dropdown__menu-box-item {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  display: flex;
+}
+
+.dropdown__menu-box-item-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat";
+  margin-top: 5px;
+  margin-left: 20px;
+  text-decoration-line: none;
+}
+
+.dropdown__menu-box-item:hover {
+  background-color: #161e27;
+  transition: 0.3s ease;
+}
+
+.dark-mode {
+  margin-left: 120px;
+}
+
+.telegram-version-box {
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.telegram-name {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.telegram-version-number {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.middle-menu-dropdown {
+  margin-right: 50px;
 }
